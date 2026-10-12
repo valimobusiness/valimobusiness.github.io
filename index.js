@@ -1,2 +1,3 @@
 "use strict";
-// Reserved for progressive enhancement. No tracking or remote dependencies.
+const year = document.getElementById("year");
+if (year) year.textContent = String(new Date().getFullYear());
